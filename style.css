@@ -564,13 +564,13 @@ nav .fas{
         background-image: url(images/phone-background.webp);
     }
     .header-text{
-        margin-top: 40%;
-        font-size: 16px;
+        margin-top: 50%;
+        font-size: 8px;
     }
     .header-text-right{
         width: 50%;
         margin-left: 50%;
-        margin-top: 50%;
+        margin-top: 25%;
         margin-bottom: 10%;
         font-size: 80%;
     }
