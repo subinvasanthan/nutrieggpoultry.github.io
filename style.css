@@ -51,6 +51,12 @@ body{
     cursor: pointer; /* Ensures it's clickable */
 }
 
+.fa-solid.fa-arrow-up{
+    color: #FDB31E; /* Change to white */
+    font-size: 24px; /* Adjust size if needed */
+    cursor: pointer; /* Ensures it's clickable */
+}
+
 
 /* -----------Fonts--------------- */
 
@@ -65,7 +71,7 @@ body{
 #page1-intheader{
     width: 100%;
     height: 100vh;
-    background-image: url(images/integration.webp);
+    background-image: url(images/background3.webp);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -97,6 +103,9 @@ body{
 .container{
     padding: 10px 10%;
 }
+.container p{
+    text-align: justify;
+}
 .container h1{
     color:#000000
 }
@@ -106,6 +115,7 @@ body{
     text-align: justify;
 }
 .container1 h1 {
+    color: black;
     text-align: left;
 }
 .container1 p {
@@ -204,7 +214,7 @@ nav ul li a:hover::after{
     color: #ADD8E6;
 }
 .header-text-right h1 span{
-    color: #000000;
+    color: #000000ab;
 }
 .page1-header-text{
     margin-top: 15%;
@@ -226,7 +236,7 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color: #FFD700;
+    color: #31312ebe;
 }
 
 .page1-header-text h1 span{
@@ -240,6 +250,46 @@ nav ul li a:hover::after{
 .header-text h1 yellow{
     color: #fdf908;
 }
+
+
+
+/* -----------Airport Systems--------------- */
+.container2{
+    padding: 10px 10%;
+    text-align: justify;
+}
+.about-col-r{
+    flex-basis: 60%;
+}
+.sub-title-r{
+    font-size: 40px;
+    font-weight: 600;
+    color: #272626;
+}
+
+.container2 .about-col-r .sub-title-r {
+    text-align: left;
+}
+
+.container3{
+    padding: 10px 10%;
+    text-align: justify;
+}
+
+.about-col-l{
+    flex-basis: 60%;
+}
+
+.about-col-i{
+    flex-basis: 35%;
+}
+.about-col-i img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
 /* -----------about--------------- */
 #about{
     padding: 80px 0;
@@ -388,8 +438,12 @@ nav ul li a:hover::after{
    transition: height 0.5s;
 }
 .layer h3{
-    font-weight: 500;
+    font-weight: bold;
+    color: white;
     margin-bottom: 20px;
+}
+.layer p{
+    color: white;
 }
 .layer a{
     margin-top: 20px;
@@ -483,12 +537,14 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
-.copyright{
+.copyright {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
-    font-weight: 300;
+    color: #003300; /* dark green */
+ /* still black, but see note below */
+    background: rgba(95, 199, 126, 0.25); /* clearer RGBA version of your color */
+    font-weight: 500;
     margin-top: 20px;
 }
 .copyright i{
@@ -556,7 +612,7 @@ nav .fas{
     .sub-title{
         font-size: 40px;
     }
-    .about-col-1, .about-col-2{
+    .about-col-1, .about-col-2, .about-col-r{
         flex-basis: 100%;
     }
     .about-col-1{
@@ -593,5 +649,4 @@ nav .fas{
     font-size: 24px;
     vertical-align: middle;
 }
-
 
